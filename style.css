@@ -6,7 +6,7 @@
 }
 
 .custom-header {
-    background-color: #333; 
+    background-color: #494949; 
     width: 100%;
     color: #fff;
     padding: 10px 0;
@@ -44,27 +44,33 @@
 /* Styles for the custom hero section */
 main
 {
-    background-color: #fafafa;
+    background-color: #fffdf6;
 
 }
 .custom-hero {
     padding: 60px 0;
     text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),url(img/section.jpg)) ;
+    max-width: 100%;
+    background-position: center;
+
+    background-size: cover;
 }
 
 .custom-hero .custom-hero-inner {
     max-width: 800px;
+    margin-top: 10px;
     margin: 0 auto;
 }
 
 .custom-hero .custom-hero-title {
     font-size: 36px;
-    color: #333;
+    color: #000000;
 }
 
 .custom-hero .custom-hero-description {
     font-size: 18px;
-    color: #555;
+    color: #596e79;
 }
 
 /* Styles for the custom buttons */
@@ -75,14 +81,19 @@ main
     cursor: pointer;
     border-radius: 4px;
 }
-
+.custom-btn:hover{
+    background-color: #c7b198;
+}
+.btn{
+    justify-content: 0px;
+}
 .custom-primary-btn {
-    background-color: #007bff;
+    background-color: #596e79;
     color: #fff;
 }
 
 .custom-secondary-btn {
-    background-color: #6c757d;
+    background-color: #c7b198;
     color: #fff;
 }
 
@@ -150,7 +161,7 @@ h6{
 
 /* Styles for the custom footer */
 .custom-footer {
-    background-color: #ffffff;
+    background-color: #ece8d9;
     color: #080808;
     padding: 20px 0;
     text-align: center;
@@ -166,6 +177,6 @@ h6{
 }
 
 .custom-footer .custom-footer-link {
-    color: #007bff;
+    color: #494949;
     text-decoration: none;
 }
