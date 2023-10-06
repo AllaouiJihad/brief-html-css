@@ -18,7 +18,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
 .custom-header .custom-logo {
@@ -47,13 +47,12 @@ main
     background-color: #fffdf6;
 
 }
+
 .custom-hero {
     padding: 60px 0;
     text-align: center;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),url(img/section.jpg)) ;
     max-width: 100%;
     background-position: center;
-
     background-size: cover;
 }
 
@@ -84,9 +83,7 @@ main
 .custom-btn:hover{
     background-color: #c7b198;
 }
-.btn{
-    justify-content: 0px;
-}
+
 .custom-primary-btn {
     background-color: #596e79;
     color: #fff;
